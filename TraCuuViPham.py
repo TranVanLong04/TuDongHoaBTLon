@@ -72,7 +72,7 @@ def main_loop():
     while True:
         now = datetime.now()
         print(f"Thời gian hiện tại: {now.strftime('%H:%M:%S')}")
-        if now.hour == 6 or now.hour == 19 and now.minute == 47 and now.second == 0:
+        if now.hour == 6 or now.hour == 12 and now.minute == 0 and now.second == 0:
             print("Đến giờ tra cứu")
             tra_cuu_vi_pham()
             print("Tra cứu hoàn tất.\n")
