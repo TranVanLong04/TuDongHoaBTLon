@@ -8,7 +8,7 @@ import pytesseract
 pytesseract.pytesseract.tesseract_cmd = "C:\\Program Files\\Tesseract-OCR\\tesseract.exe"
 
 value_bien_so_xe = '14A60778'
-captcha_path = r"D:\\TDHQT\\Buoi7\\captcha.png"
+captcha_path = r"D:\TDHQT\BaiTap\BaiTapLon\captcha.png"
 
 def tra_cuu_vi_pham():
     driver = webdriver.Chrome()
@@ -72,7 +72,7 @@ def main_loop():
     while True:
         now = datetime.now()
         print(f"Thời gian hiện tại: {now.strftime('%H:%M:%S')}")
-        if now.hour == 6 or now.hour == 12 and now.minute == 0 and now.second == 0:
+        if now.hour == 6 or now.hour == 20 and now.minute == 55 and now.second == 00:
             print("Đến giờ tra cứu")
             tra_cuu_vi_pham()
             print("Tra cứu hoàn tất.\n")
