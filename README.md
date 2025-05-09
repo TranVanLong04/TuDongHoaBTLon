@@ -12,5 +12,6 @@ Chạy lệnh sau trong terminal (Command Prompt / PowerShell) để cài đặt
 - Hoặc tải trực tiếp tại: https://github.com/tesseract-ocr/tesseract
 
 III. Chạy thủ công
-Bước 1: Mở terminal tại thư mục chứa dự án
-Bước 2: Chạy lệnh python TraCuuViPham.py để thực thi
+Các bước để chạy:
+- Bước 1: Mở terminal tại thư mục chứa dự án
+- Bước 2: Chạy lệnh python TraCuuViPham.py để thực thi
